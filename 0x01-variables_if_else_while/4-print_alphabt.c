@@ -1,19 +1,19 @@
 #include<stdio.h>
-
 /**
-* main - Entry point
-*
-* Return: 0
+*main - Entry point
+*Description: Get a random number and check its last digit, compare it with 5
+*Return: 0
 */
 int main(void)
 {
-	char b;
-
-	for (b = 'a' b <= 'z'; b++)
-	
-		if (b != 'q' && b != 'e')
-			putchar(b);
-	putchar('\n');
-
-	return (0);
+char c = 'a';
+while (c <= 'z')
+{	
+if (c != 'e' && c != 'q')
+putchar(c);
+}
+c++
+}
+putchar('\n');
+return (0);
 }
