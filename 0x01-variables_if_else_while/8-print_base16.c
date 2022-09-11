@@ -2,22 +2,17 @@
 
 /**
  * main - Entry point
- *
- * Description: 'the program's description'
- *
- * Return: Always 0 (Success)
+ * Return:0
  */
-
 int main(void)
 {
-int d;
-
-for (d = '0'; d <= '9'; d++)
+int i, y;
+for (i = 0; i < 10; i++)
 {
-putchar(d);
+putchar(i + '0');
 }
-for (d = 'a'; d <= 'f'; d++)
-putchar(d);
+for (y = 'a'; y <= 'f'; y++)
+putchar(y);
 }
 putchar('\n');
 return (0);
