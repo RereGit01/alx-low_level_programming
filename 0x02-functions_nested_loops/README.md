@@ -1,1 +1,1 @@
-ls
+putchar
