@@ -1,13 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Description: 'the program's description'
- *
+ * main -  prints Holberton, followed by a new line
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	_putchar('_');
@@ -19,5 +15,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
