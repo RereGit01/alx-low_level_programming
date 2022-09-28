@@ -25,7 +25,7 @@ return (-1);
 /**
  * *_sqrt_recursion - evaluate sqrt
  *  *@n: interger
- *   *Return: Sgrt_recursion   
+ *   *Return: Sgrt_recursion
  */
 
 int _sqrt_recursion(int n)
